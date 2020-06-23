@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--------------------------------------- Header----------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-5">
+        <a class="navbar-brand pl-3" href="#">LOES</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#recent-work">RECENT WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-lg pt-5" id="home">
+          <h1 class="text-center display-3 title my-4">Web Developer</h1>
+          <h3 class="text-muted text-center my-4">I believe that the greatness of life is in facing challenges</h3>
+          <img src="img/myAvatar.svg" alt="avatar" class="img-fluid my-4 mx-auto d-block" width="270px" >
+      </div>
+<!--------------------------------------------------About section-------------------------->
+      <div class="container-fluid bg-gradient" id="about">
+        <h1 class="text-center display-4 my-2 light-text">About me</h1>
+        <div class="container">
+            <p class="light-text lead text-center mb-5">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus nostrum sunt optio porro, 
+                non ad saepe tempore architecto explicabo enim, doloribus voluptatum veniam ea quo corporis, id modi tenetur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cum at ab error vitae quibusdam cumque esse 
+                pariatur voluptas tempora? Ducimus maxime adipisci molestiae? Aliquid rerum iure neque architecto tenetur?
+            </p>
+
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-5 mx-auto mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <ion-icon class="icon d-block mx-auto my-5"name="desktop-outline"></ion-icon>
+                        <h2 class="my-4 dark-text text-center">Front-end Developer</h2>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequuntur quisquam culpa deserunt eveniet sed nulla minus dolore accusamus 
+                            quaerat veniam cum nemo maiores esse, consequatur, illo reiciendis et officiis? 
+                            Corporis!
+                        </p>
+                        <h3 class="dark-text text-center">Lenguages I speak</h3>
+                        <ul class="text-center">
+                            <li >HTML</li>
+                            <li>CSS</li>
+                            <li>Javascrip</li>
+                            <li>Python</li>
+                            <li>Sass</li>
+                       
+                        </ul>
+
+                    </div> 
+                  </div>
+
+            </div>
+            <div class="col-md-5 mx-auto mb-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <ion-icon class="icon d-block mx-auto my-5" name="phone-portrait-outline"></ion-icon>
+                        <h2 class="my-4 dark-text text-center">SQL Knowledge</h2>
+                        <p class="text-center"> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequuntur quisquam culpa deserunt eveniet sed nulla minus dolore accusamus 
+                            quaerat veniam cum nemo maiores esse, consequatur, illo reiciendis et officiis? 
+                            Corporis!
+                        </p>
+
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+          
+    </div>
+<!--------------------------------------------------Recent Work-------------------------->
+        <div class="container-fluid" id="recent-work">
+            <h1 class="text-center dark-text ">Recent work</h1>
+            <div class="row">
+                <div class="col-md  mx-2 my-2">
+                    <img  class="rounded img-fluid" src="img/rw1.jpg" alt="recent-project1">
+                    <button type="button" class="btn-light btn-lg my-4 d-block mx-auto">Code</button>
+
+                </div>
+                <div class="col-md mx-2  my-2">
+                    <img  class="rounded img-fluid" src="img/rw2.jpg" alt="recent-project2">
+                    <button type="button" class="btn-light btn-lg my-4 d-block mx-auto">Code</button>
+
+                </div>
+                <div class="col-md mx-2  my-2">
+                    <img class="rounded img-fluid" src="img/rw3.jpg" alt="recent-project3">
+                    <button type="button" class="btn-light btn-lg my-4 d-block mx-auto">Code</button>
+
+                </div>
+
+
+            </div>
+
+        </div>
+<!--Contact--------------------------------------------------------------------------------------->
+        <div class="container-fluid  bg-gradient" id="contact">
+            <div class="container-contact container-md">
+                <h3 class="light-text my-4 contact medium cflex">Contact me</h3>
+                <p class="text-center light-text mx-3 cflex">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus vitae repellat</p>
+                <div class="cflex my-4 text-center">
+                    <a href="/doc/HV_LauraOchoaE.pdf" download>
+                        <button type="button" class="btn-pink btn-lg ">Get CV</button>
+                    </a>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid bg-light">
+            <div class="container d-flex justify-content-center mt-5 mb-3">
+                <a href="https://github.com/Loes75/" target="_blank"><ion-icon name="logo-github" class="i-social"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/laura-isabel-ochoa-escobar-a35b64172/" target="_blank"> <ion-icon name="logo-linkedin" class="i-social"></ion-icon></a>
+                <a href="mailto:lauju28@hotmail.com"><ion-icon name="mail" class="i-social"></ion-icon></a>
+                
+
+            </div>
+
+        </div>
+
+    
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+//fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;800&display=swap');
+$font_family : 'Poppins', sans-serif;
+$font-brand: 'Permanent Marker', cursive;
+
+//Color palette
+
+$light_green : rgb(82, 183, 136);
+$dark_green: rgb(64, 145, 108);
+
+$dark_green_o : rgba(181, 131, 141,0.7);
+$light_green_o :rgba(229, 152, 155,0.7);
+
+$white_normal : white;
+$black_normal: black;
+
+///////////
+
+body{
+    font-family: $font_family;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    font-family: $font-brand !important;
+    font-size: 2rem;
+}
+ul{
+    margin: 0;
+    padding: 0;;
+}
+li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+.title{
+    font-weight: 600 ;
+    font-size: 5rem;
+}
+.light-text{
+    color: $white_normal;
+}
+.dark-text{
+    color: $dark_green;
+}
+.bg-light{
+    background-color: $white_normal !important;
+}
+
+.bg-gradient{
+    background: linear-gradient(0deg, $dark_green, $light_green);
+}
+
+.nav-link{
+    font-family: $font_family !important;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: $dark_green !important;
+}
+
+.nav-link:hover{
+    color: $black_normal !important;
+    border-bottom: 2px solid $dark_green;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.icon{
+    font-size: 5.5rem;
+    color: $dark_green;
+}
+
+.card{
+    border-radius: 5% !important;
+}
+
+.rounded{
+    border-radius: 5% !important;
+}
+
+.btn-light{
+    background-color: $white_normal !important;
+    color: $dark_green !important;
+    border: 3px solid $dark_green;
+   
+
+}
+
+.btn-light:hover{
+    background-color: $dark_green !important;
+    color: $white_normal!important;
+}
+
+.btn-pink{
+    background-color: transparent;
+    color: $white_normal !important;
+    border: 3px solid $dark_green;
+}
+
+.btn-pink:hover{
+    background-color: $white_normal !important;
+    color: $dark_green!important;
+}
+
+.container-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cflex{
+    flex: 1;
+}
+
+.i-social{
+    font-size: 2.5rem;
+    color: $dark_green;
+}
+.i-social:hover{
+    color: $black_normal;
+
+}
+
+@media (max-width: 576px) { 
+    .container-contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cflex{
+        align-self: center;
+    }
+    .title{
+        font-size: 2.8rem;
+    }
+
+}

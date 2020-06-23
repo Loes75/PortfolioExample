@@ -1,0 +1,17 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "miniproject with bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loes",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.4.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js":"^1.16.0"
+  }
+}
